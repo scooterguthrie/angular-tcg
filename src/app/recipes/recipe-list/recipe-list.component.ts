@@ -7,8 +7,8 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.scss']
 })
 export class RecipeListComponent implements OnInit {
-  recipe: Recipe[] = [
-    new Recipe('A Test Recipe', 'This is simply a test.', 'https://images.app.goo.gl/xJnGDDCHtK6tMXHZ9')
+  recipes: Recipe[] = [
+    new Recipe('A Test Recipe', 'This is simply a test.', 'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg')
   ];
 
   constructor() { }
